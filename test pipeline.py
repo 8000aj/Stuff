@@ -107,7 +107,8 @@
 
 # CREATE LISTS OF ALL FILEPATHS
 # SYMBOLS
-# symbols = ["AAPL","MSFT","AMZN","FB","XOM","JNJ","BRKB","JPM","GOOGL","GOOG","GE","WFC","BAC","T","PG","CVX","PFE","HD","VZ","CMCSA","INTC","MRK","V","PM","CSCO","KO","C","UNH","DIS","PEP","MO","IBM","ORCL","AMGN","MMM","MCD","MDT","WMT","MA","ABBV","BA","HON","SLB","CELG","PCLN","BMY","UNP","AVGO","UTX","SBUX","GILD","GS","USB","CVS","AGN","QCOM","TXN","COST","LLY","TWX","ABT","ACN","LOW","UPS","WBA","NKE","CHTR","DOW","MDLZ","DD","LMT","NFLX","ADBE","TMO","CB","CL","MS","NEE","NVDA","AXP","PNC","CAT","BIIB","COP","DUK","AIG","MET","CRM","GD","PYPL","AMT","RAI","KHC","SPG","EOG","TJX","MON","DHR","BK","SCHW","SO","D","CSX","ANTM","BLK","PRU","FDX","AET","OXY","RTN","GM","KMB","AMAT","ADP","F","ITW","NOC","BLKFDS","YHOO","SYK","CI","CME","COF","HAL","BDX","JCI","KMI","EMR","MMC","ESRX","CTSH","ATVI","BSX","ICE","LUV","PX","BBT","DAL","PSX","SPGI","ETN","NSC","PCG","TRV","CCI","EBAY","HUM","AEP","ECL","EQIX","GIS","DE","TGT","HPQ","AON","EXC","APD","ISRG","REGN","ALL","HPE","PSA","MAR","INTU","FOXA","STT","STZ","AFL","VRTX","WM","MCK","ALXN","VLO","EA","APC","MU","PXD","STI","PLD","PPG","SRE","ADI","ILMN","ZTS","FIS","BAX","KR","SHW","MPC","LYB","GLW","TEL","SYY","CCL","AVB","PPL","WDC","EIX","ROST","FISV","WMB","HCN","BHI","WY","CMI","MTB","LRCX","ED","ZBH","HCA","PCAR","DFS","CBS","ADM","EQR","DLPH","PGR","EW","IR","YUM","CAH","ORLY","XEL","SYF","AAL","VTR","PEG","BCR","ROP","APH","DXC","NWL","IP","PH","UAL","SWK","INCY","EL","KEY","DVN","AMP","AZO","ROK","MCO","SYMC","NTRS","OMC","DLTR","CXO","NUE","BXP","WEC","FTV","CERN","CFG","DG","SWKS","ES","DTE","PAYX","APA","FITB","HIG","RCL","ADSK","A","MNST","TSN","DLR","VFC","LVLT","PFG","NEM","TROW","K","WLTW","RF","MYL","ULTA","VMC","COL","CLX","EXPE","TAP","DPS","EFX","ESS","MCHP","MJN","VNO","FCX","O","KLAC","CAG","XLNX","RHT","MLM","HSY","LNC","DGX","BEN","SJM","XRAY","FTI","MHK","HCP","RSG","HBAN","LH","ADS","MSI","IDXX","CTL","BBY","AWK","USD","HSIC","ETR","WHR","WAT","VIAB","FOX","NBL","HRS","CMG","DISH","AME","NLSN","GPC","CTXS","ABC","WRK","HST","MTD","GGP","BLL","FAST","LLL","AEE","IVZ","L","CNC","NOV","FE","CMA","CMS","LB","HES","TXT","MRO","CHD","HOLX","STX","GPN","TDG","ALB","DOV","CNP","ARNC","COH","VRSK","MAS","COG","JNPR","EMN","WFM","XEC","MKC","HAS","SNPS","XL","MAA","OKE","DHI","UHS","IFF","CPB","KMX","DRI","NTAP","PNR","ALK","UNM","CBG","CINF","SLG","CTAS","AAP","CHRW","PRGO","GWW","DVA","CA","EQT","IT","LEN","FL","ARE","ETFC","WYN","COO","WYNN","UDR","TIF","RJF","LKQ","EXPD","HOG","AJG","FBHS","SNA","FRT","FMC","TSS","KSU","TSO","IPG","PNW","HRL","SCG","AKAM","REG","WU","EXR","URI","XYL","LNT","GT","AMG","M","SEE","QRVO","KIM","VAR","COTY","IRM","BFB","TMK","LUK","MOS","BWA","FFIV","TSCO","ZION","AMD","VRSN","NDAQ","PVH","JBHT","HBI","NI","AYI","AVY","CBOE","MAC","ALLE","AES","MAT","SRCL","FLR","LEG","NFX","KSS","EVHC","AIV","JEC","HP","FLS","PKI","SNI","PHM","SPLS","XRX","KORS","PBCT","CF","RHI","GRMN","AIZ","JWN","GPS","DISCK","BBBY","TGNA","PWR","HRB","TRIP","FLIR","RRC","NWSA","NRG","MNK","SIG","RL","NAVI","CHK","CSRA","RIG","MUR","DISCA","TDC","UAA","PDCO","R","UA","AN","UBFUT","NWS","ESM"]
+
+tmaster = ["AAPL", "AMZN", "BAC", "C", "CMCSA", "CSCO", "CVX", "FB", "GE", "GOOG", "GOOGL", "HD", "INTC", "JNJ", "JPM", 'KO', 'MRK', 'MSFT', 'PFE', 'PG', 'PM', 'T', 'V', 'VZ', 'WFC', 'XOM', 'BRK.B', 'UNH', 'DIS', 'PEP', 'MO', 'IBM', 'ORCL', 'AMGN', 'MMM', 'MCD', 'MDT', 'WMT', 'MA', 'ABBV', 'BA', 'HON', 'SLB', 'CELG', 'PCLN', 'BMY', 'UNP', 'AVGO', 'UTX', 'SBUX', 'GILD', 'GS', 'USB', 'CVS', 'AGN', 'QCOM', 'TXN', 'COST', 'LLY', 'TWX', 'ABT', 'ACN', 'LOW', 'UPS', 'WBA', 'NKE', 'CHTR', 'DOW', 'MDLZ', 'DD', 'LMT', 'NFLX', 'ADBE', 'TMO', 'CB', 'CL', 'MS', 'NEE', 'NVDA', 'AXP', 'PNC', 'CAT', 'BIIB', 'COP', 'DUK', 'AIG', 'MET', 'CRM', 'GD', 'PYPL', 'AMT', 'KHC', "SPG","EOG","TJX","MON","DHR","BK","SCHW","SO","D","CSX","ANTM","BLK","PRU","FDX","AET","OXY","RTN","GM","KMB","AMAT","ADP","F","ITW","NOC","BLKFDS","YHOO","SYK","CI","CME","COF", "HAL","BDX","JCI","KMI","EMR","MMC","ESRX","CTSH","ATVI","BSX","ICE","LUV","PX","BBT","DAL","PSX","SPGI","ETN","NSC","PCG","TRV","CCI","EBAY","HUM","AEP","ECL","EQIX","GIS", "DE","TGT","HPQ","AON","EXC","APD","ISRG","REGN","ALL","HPE","PSA","MAR","INTU","FOXA","STT","STZ","AFL","VRTX","WM","MCK","ALXN","VLO","EA","MU","PXD", "STI","PLD","PPG","SRE","ADI","ILMN","ZTS","FIS","BAX","KR","SHW","MPC","LYB","GLW","TEL","SYY","CCL","AVB","PPL","WDC","EIX","ROST","FISV","WMB", "WY","CMI","MTB","LRCX","ED","ZBH","HCA","PCAR","DFS","CBS","ADM","EQR","DLPH","PGR","EW","IR","YUM","CAH","ORLY","XEL","SYF","AAL", "VTR","PEG","ROP","APH","DXC","NWL","IP","PH","UAL","SWK","INCY","EL","KEY","DVN","AMP","AZO","ROK","MCO", "NTRS","OMC","DLTR","CXO","NUE","BXP","WEC","FTV","CERN","CFG","DG","SWKS","ES","DTE","PAYX","APA","FITB", "HIG","RCL","ADSK","A","MNST","TSN","DLR","VFC","PFG","NEM","TROW","K","WLTW","RF","MYL","ULTA", "VMC","CLX","EXPE","TAP","EFX","ESS","MCHP","VNO","FCX","O","KLAC","CAG", "XLNX","MLM","HSY","LNC","DGX","BEN","SJM","XRAY","FTI","MHK", "RSG","HBAN","LH","ADS","MSI","IDXX","CTL","BBY","AWK","USD","HSIC","ETR","WHR","WAT", "VIAB","FOX","NBL","HRS","CMG","DISH","AME","NLSN","GPC","CTXS","ABC","WRK","HST","MTD","BLL","FAST","AEE","IVZ","L","CNC","NOV","FE","CMA", "CMS","LB","HES","TXT","MRO","CHD","HOLX","STX","GPN","TDG","ALB", "DOV","CNP","ARNC","VRSK","MAS","COG","JNPR","EMN","XEC","MKC","HAS","SNPS","MAA","OKE","DHI","UHS","IFF","CPB","KMX","DRI","NTAP","PNR","ALK","UNM","CINF", "SLG","CTAS","AAP","CHRW","PRGO","GWW","DVA", "EQT", "IT","LEN","FL","ARE","ETFC","COO", "WYNN","UDR","TIF","RJF","LKQ","EXPD","HOG", "AJG","FBHS","SNA","FRT","FMC","KSU", "IPG","PNW","HRL","AKAM","REG","WU","EXR","URI","XYL","LNT","GT","AMG","M","SEE","QRVO","KIM","VAR", "COTY", "IRM", "MOS","BWA","FFIV","TSCO","ZION","AMD","VRSN","NDAQ","PVH","JBHT","HBI","NI","AYI","AVY","CBOE","MAC","ALLE","AES","MAT","SRCL","FLR","LEG","KSS","AIV","JEC","HP","FLS","PKI","PHM","XRX","PBCT","CF","RHI","GRMN","AIZ","JWN","GPS","DISCK","BBBY","TGNA","PWR","HRB","TRIP","FLIR","RRC","NWSA","NRG","MNK","SIG","RL","NAVI","CHK","RIG","MUR","DISCA","TDC","UAA","PDCO","R","UA","AN","NWS"]
 import pymysql.cursors
 from bs4 import BeautifulSoup
 
@@ -229,13 +230,11 @@ try:
     # f12 = open(MSFT_CFS1)
     # f13 = open(MSFT_CFS1)
     # f14 = open(MSFT_CFS1)
-
     # whole html file
     whole_html1 = f1.read()
     soup1 = BeautifulSoup(whole_html1, 'lxml')  # type: bs
     # soupp = soup.prettify()  # type: string
     # print(soupp)
-
     # ISOLATION; left to right, future to past
     # this pulls the whole table; need to isolate further
     table = soup1.find('table', attrs={'id': 'report'})
@@ -293,22 +292,44 @@ try:
 
     #####
 
-    list contains url paths(or a function of the paths)
-    feed list into function
-    fx looks at length(nb of items)
-    fx allocates titled memory channels according to(nb of items)
-    fx isolates the tabled data from .html file(html to list obj)
-    data is now allocated into its proper memory channel
-    every memory channel gets compared(statements, dates)
-    print analysis(identical or non - identical)
-    if identical print identical
-        proceed with stitching
-    else print non - identical
-        break
+    # list contains url paths(or a function of the paths)
+    # feed list into function
+    # fx looks at length(nb of items)
+    # fx allocates titled memory channels according to(nb of items)
+    # fx isolates the tabled data from .html file(html to list obj)
+    # data is now allocated into its proper memory channel
+    # every memory channel gets compared(statements, dates)
+    # print analysis(identical or non - identical)
+    # if identical print identical
+    #     proceed with stitching
+    # else print non - identical
+    #     break
 
     def master_mk1(list_mk1):
         len_list = len(list_mk1)
-        listOfLists = [[] for i in range(len_list)]
+        master = [[] for i in range(len_list)]
+
+    # 20191215 1127PM
+    # code in delivery
+
+    #     how to make dynamic? how to code a
+
+    # build set
+    for symbol in range(0, len(tmaster), 1):
+        statement_rotation = ["_income_statement_", "_balance_sheet_statement_", "_cash_flow_statement_"]
+
+        for x in range(0, 2, 1):
+            statement_rotation[x]
+            temp_list = []
+
+            for y in range(1, 15, 1):
+                #open 15 channels
+                temp = symbol + statement_rotation + (str(y)) + ".html"
+                temp_list.append(temp)
+
+
+
+    # code in comparison
 
 
 except FileNotFoundError:
