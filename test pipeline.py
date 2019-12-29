@@ -89,9 +89,8 @@
 #         # test = "INSERT INTO `spy20190828` (`daydate`, `daytime`, `open_price`, `high_price`, `low_price`, `close_price`, `volume`) VALUES (%s, %s, %s, %s, %s, %s, %s)"
 #         cursor.execute(new_row_command, val)
 #         con.commit()
-
-
 # new_row('testdb', 'tabletable', 'Statement', '555')
+
 # END OF ROW CELL TITLE INSERTION
 # END OF VALUE INSERTION INTO TABLE
 
