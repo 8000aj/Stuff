@@ -1,0 +1,23 @@
+TODO
+analyse fastest growing companies:
+net profit
+net income
+price action
+
+option price modeling:
+
+intraday analysis of top performing companies:
+
+calculation of volatility:
+
+backtest modeling for basic option betting on dailies:
+
+automation of daily price action to mysql:
+    downloading with python using output size: compact
+    cross reference code:
+        pulling lastest data from mysql
+        pulling data from latest data ingestion
+        isolate the difference
+        add to database
+
+understanding & analysis of sp500 companies
